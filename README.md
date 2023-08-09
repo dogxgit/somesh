@@ -1,13 +1,13 @@
 # somesh
 az端口
 `````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
-wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/dogxgit/somesh/main/az.sh" && chmod 700 /root/az.sh && /root/az.sh
+wget -N --no-check-certificate -q -O install.sh "https://raw.githubusercontent.com/dogxgit/somesh/main/az.sh" && chmod +x az.sh && bash az.sh
 `````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
 oc多ip
 `````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
-wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/dogxgit/somesh/main/oip.sh" && chmod 700 /root/oip.sh && /root/oip.sh
+wget -N --no-check-certificate -q -O install.sh "https://raw.githubusercontent.com/dogxgit/somesh/main/oip.sh" && chmod +x oip.sh && bash oip.sh
 `````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
 xray多ip
 `````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
-wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/dogxgit/somesh/main/xip.sh" && chmod 700 /root/xip.sh && /root/xip.sh
+wget -N --no-check-certificate -q -O install.sh "https://raw.githubusercontent.com/dogxgit/somesh/main/xip.sh" && chmod +x xip.sh && bash xip.sh
 `````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
